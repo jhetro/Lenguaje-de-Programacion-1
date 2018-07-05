@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 			int NF=0,MT=0;//Contadores
 	
 		
-			cout<<" ¿Desea [1]Continuar Compra, [0]Terminar Transaccion?\n";
+			cout<<" Â¿Desea [1]Continuar Compra, [0]Terminar Transaccion?\n";
 			cin>>resp;// llamado a la Condicion
 		
 			while (resp!=0)
@@ -51,7 +51,7 @@ int main(int argc, char* argv[])
 					else {
 						       int incluido =(PT*0.15);
 					}
-							cout<<" ¿Desea [1]Continuar Compra, [0]Terminar Transaccion?\n";
+							cout<<" Â¿Desea [1]Continuar Compra, [0]Terminar Transaccion?\n";
 							cin>>resp;// llamado a la Condicion			
 				
 						++NF;
@@ -62,15 +62,15 @@ int main(int argc, char* argv[])
 								
 				cout<<"************************Factura******************************"<<endl;
 				
-				cout<<"N° Factura:%d"<<NF<<endl;
+				cout<<"NÂ° Factura:%d"<<NF<<endl;
 		
 				cout<<"Precio Unitario__________________________________Lps:  %d"<<P<<endl;
 			
 				cout<<"Cantidad_____________________________________________  %d"<<N<<endl;
 				
-				cout<<"Exento"<<exento<<endl;
+				cout<<"Exento___________________________________________________"<<exento<<endl;
 				
-				cout<<"Incluido"<<incluido<<endl;
+				cout<<"Incluido_________________________________________________"<<incluido<<endl;
 				
 				cout<<"Total____________________________________________Lps;  %d"<<PT<<endl;
 				
